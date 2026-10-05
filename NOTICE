@@ -1,0 +1,4 @@
+Third-party code in Sunshift
+
+share/vendor/astral is Astral 3.2 by Simon Kennedy, licensed under the
+Apache License 2.0; see share/vendor/astral-3.2.dist-info/LICENSE.
