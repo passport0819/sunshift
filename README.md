@@ -5,7 +5,7 @@ and cools it again in the morning, following either fixed times or the real sunr
 location. It lives in the Omarchy bar as a small icon with a panel underneath, in the look of Omarchy's
 own panels.
 
-<!-- Screenshot: the bar icon and the open panel -->
+<p align="center"><img src="docs/panel.png" alt="The Sunshift panel under the Omarchy bar" width="380"></p>
 
 ## What it does
 
