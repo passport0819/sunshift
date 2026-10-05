@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sunshift.panel",
+  "name": "Sunshift",
+  "version": "1.0.0",
+  "author": "sunshift",
+  "description": "Night light on a schedule: the icon in the bar and a panel under it with pause timer, schedule, colors and location",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Sunshift",
+    "description": "Night light on a schedule, with pause timer, schedule, colors and location",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

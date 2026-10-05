@@ -1,0 +1,16 @@
+[Unit]
+Description=Sunshift automatic screen color temperature
+Requires=hyprsunset.service
+After=hyprsunset.service graphical-session.target
+PartOf=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/.local/share/sunshift/sunshift.py daemon
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=6
+
+[Install]
+WantedBy=graphical-session.target
